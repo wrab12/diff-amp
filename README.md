@@ -37,12 +37,15 @@ This process usually takes around 5 minutes.
 
 ## Usage
 ### generation model
+- You can directly use our generation model through Hugging Face: [Diff-AMP Antimicrobial Peptide Generation](https://huggingface.co/spaces/jackrui/diff-amp-antimicrobial_peptide_generation)
 - Train the generation model: Run `gan_diff.py`.
 - Generate antimicrobial peptides: Use `gan_generate.py`. Get weight files from this [Google Drive link](https://drive.google.com/drive/folders/1vb_vvso29CQHMt43WpTGxoXTki16oNSm?usp=drive_link) and place them in the `weight` directory to use without retraining.
 ### classification model
+- You can directly use our recognition model through Hugging Face: [Diff-AMP AMP Sequence Detector](https://huggingface.co/spaces/jackrui/diff-amp-AMP_Sequence_Detector)
 - Train the classification model: Run `AMP_Classification.py`.
 - If you want to directly identify your own peptides as antimicrobial, you can run `AMP_Classification_Prediction.py`. In this case, prepare a file named `seq.txt` with one sequence per line. You can modify the input format if needed. To use pre-trained weights, download them from this [Google Drive link](https://drive.google.com/drive/folders/1vb_vvso29CQHMt43WpTGxoXTki16oNSm?usp=drive_link) and place them in the `weight` directory.
 ### Multi-Attribute Prediction Model
+- You can directly use our multi-attribute prediction model through Hugging Face: [Diff-AMP AMP Prediction Model](https://huggingface.co/spaces/jackrui/AMP_Prediction_Model)
 - Perform property prediction on generated antimicrobial peptides: Run `predict.py`. Get the necessary weight files from this [Google Drive link](https://drive.google.com/drive/folders/1iLzwYbq0R3lwJum4laG1KshXs7oXD9fv?usp=drive_link) and place them in the 'models' directory.
 ## run
 - Experience all steps of generation, recognition, and optimization.

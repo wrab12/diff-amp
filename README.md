@@ -7,7 +7,7 @@ We have developed a unified AMP (Antimicrobial Peptide) design and optimization 
 ## Environment
 First, clone and navigate to the repository.
 ```bash
-git clone https://github.com/jackrui/diff-amp
+git clone https://github.com/wrab12/diff-amp
 cd diff-amp
 ```
 This process can take several minutes, depending on network speed.

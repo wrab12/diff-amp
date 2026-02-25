@@ -52,4 +52,7 @@ This process usually takes around 5 minutes.
 ```shell
 run.sh
 ```
+## Acknowledgment
+
+We sincerely thank our co-author, Jinhang Wei (https://github.com/jinhang23), for his valuable contributions to the code development and research in this project.
 
